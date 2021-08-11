@@ -1,5 +1,6 @@
 package com.AddressBook;
 import java.util.Scanner;
+import java.io.Console;
 public class AddressBook {
     public static void main(String[] args)
     {
@@ -18,15 +19,14 @@ public class AddressBook {
         String name = sc.nextLine();
         System.out.println("Name of the person is:"+name);
         String address = sc.nextLine();
-        System.out.println("Name of the person is:"+address);
+        System.out.println("Address of the person is:"+address);
         String city = sc.nextLine();
-        System.out.println("Name of the person is:"+city);
+        System.out.println("City of the person is:"+city);
         String state = sc.nextLine();
-        System.out.println("Name of the person is:"+state);
+        System.out.println("State of the person is:"+state);
         int ph_no=sc.nextInt();
-        System.out.println("Name of the person is:"+ph_no);
+        System.out.println("Phone number is:"+ph_no);
         String email_id = sc.nextLine();
-        System.out.println("Name of the person is:"+email_id);
-
+        System.out.println("Email id is:"+email_id);
     }
 }
